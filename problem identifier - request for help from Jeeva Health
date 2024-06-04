@@ -1,0 +1,93 @@
+Tanush Kaushik 
+
+The University of Texas at Austin –– Center of Teaching & Learning (CTL) 
+
+June 3, 2024 
+
+CTL Problem & Request for Help to Jeeva Health 
+
+1. Project Overview 
+
+Project Name: Publication Tracking for Provost's Teaching Fellows (PTFs), who are grantees awarded funding by the CTL 
+
+Client: Center for Teaching and Learning (CTL) at the University of Texas at Austin 
+
+Objective: Compile publication records of PTFs related to their specific projects to evaluate the impact and dissemination of curricular innovations and make an argument to CTL’s stakeholders for more funding (i.e.: if there are published works that CTL’s money contributes to, there is an argument to be had). 
+
+2. Background Information 
+
+CTL Overview: The CTL is a core group of 10–15 staff who give money to PTFs that apply to make course innovations and department innovations. For example, if a chemistry professor wanted to do an overhaul of a chemistry course for chemistry majors, this professor may publish about the experience of doing that. This work would be oriented towards STEM or humanities. The rationale behind publishing these kinds of experiences is for the benefit of other professors to draw inspiration to liven their own courses.  
+
+Best Case Scenario: To see these projects being funded, then succeeding, and as a result UT Austin would become a powerhouse in higher education pedagogy and have strong teaching practices.    
+
+PTF Program: The PTFs are fellows awarded money from the CTL to change their curriculums as they teach at the University of Texas at Austin. Each fellow (a professor) belongs to a specific cohort year in which they were awarded money. The assumption is that it takes multiple years to make and see changes.  
+
+Current Situation:  
+
+CTL funds various programs, including PTF, to encourage curricular innovations. The PTF is the biggest of those programs.  
+
+Need to track publications by PTFs related to their projects.  
+
+Low response rate from professors regarding their publications.  
+
+ 3. Problem Statement 
+
+Data Tracking Issue: Lack of efficient tracking of PTF-related publications. 
+
+Data Source: Information is scattered, and existing filters and repositories are not user-friendly or comprehensive. 
+
+Validation Challenge: Difficulty in verifying if a publication is directly related to a PTF project based on abstracts alone. 
+
+4. Current Approach and Work Done 
+
+Data Compilation: Using an Excel sheet repository that lists fellows, cohorts, and project initiatives. This is sample data of ten PTFs, please see attached below for more details.  
+
+Preliminary Script: Developed a Python script to read documents and identify relevant sections, extracting publication details. This is a script that has worked thus far in at the very least identifying each author’s publications, but it is also identifying other authors’ publications with similar names, and doing a lot more than needed (inefficient & cluttered). This code script is attached, please see attached below for more details.  
+
+Manual Validation: Relying on manual checks to validate the relevance of extracted publications. 
+
+5. Requested Deliverables 
+
+Automated Scraping: 
+
+Scrape publication data from Google Scholar or other comprehensive databases (Tanush is focusing on Google Scholar). 
+
+Implement keyword matching to filter relevant publications. 
+
+Data Validation: 
+
+Develop a system to cross-reference abstracts with project descriptions. 
+
+Create a validation pipeline to check publication relevance. 
+
+Considerations Tanush has already thought about (Tools and Libraries): 
+
+Use robust Python libraries for text processing and data extraction. 
+
+Consider NLP techniques for accurate matching. 
+
+Final Deliverable that Tanush will take care of:  
+
+A comprehensive list of publications related to PTF projects. 
+
+Data formatted appropriately and written to a new file named "publications_filtered.csv". 
+
+6. Project Timeline 
+
+Initial Consultation: Review and refine the approach — sometime THIS WEEK June 3 – June 8 
+
+Script Development: Implement and test the Python script — sometime THIS WEEK & NEXT June 3 – June 8 
+
+Validation Process: Set up and test the validation pipeline — sometime NEXT WEEK June 10 – June 15 
+
+Final Delivery: Tanush’s Due Date to the CTL for the script that extracts data is Monday, June 17. 
+
+7. Contact Information 
+
+Email: tanushkaushik@utexas.edu 
+
+Phone: 978-337-6045 
+
+Collaboration: Open to regular meetings and updates to ensure project alignment. 
+
+ 
