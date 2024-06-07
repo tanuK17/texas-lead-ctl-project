@@ -1,0 +1,6 @@
+To resolve this Max Tries Exceeded Exception Error I'm getting with scholarlymodule1.py, I've created a testedscholarlymodule1.py file with some different techniques 
+which aims to troubleshoot that error. Part of this handling is to:
+- use timeout & wait_time with free proxies (inspiration drawn from the official GitHub of the Python scholarly module)
+- an understanding that sometimes, free proxies can be unreliable –– and that's led me to believe a free proxy may NOT be the solution here... 
+
+The evidence of my work can be seen, again, in testedscholarlymodule1.py. 
