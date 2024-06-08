@@ -1,0 +1,13 @@
+The file scholarlymodule2.py is an official breakthrough I've made with the multiple iterations of the scholarly module, unsuccessful attempts with SerpAPI (whose free plan is the 
+ultimate reason I couldn't make breakthroughs), and an overall struggle to fight against scholarly's underresourced documentation that made it harder for me to understand where to go.
+Thankfully, these breakthroughs were possible... and I'd like to use this file to explain how "scholarlymodule2.py" differs, successfully, from "testedscholarlymodule1.py":
+
+1) The proxy is initialized directly within the main script without specific timeout and wait time values in scholarlymodule2.py
+2) It seems so counterintuitive that trying to "capture" or "handle" the MaxTriesExceededException error does NOT work. The new code does not explicitly handle MaxTriesExceededException. 
+It focuses on trying to fetch the search results within a single proxy session.
+3) The new code uses a check_name_match function to ensure the author's name matches and checks if the publication year is exactly the given year. The check_name_match 
+function provides a more flexible way to match author names, which might result in more accurate filtering of relevant papers.
+
+
+
+
