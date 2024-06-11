@@ -1,5 +1,5 @@
 """
-This output is based off the file testedscholarlymodule2.py
+This output is based off the file called 'testedscholarlymodule2.py' FROM folder 'iterations of scholarly module'... it also uses the sample data file called 'keywords_authors_years.csv' FROM folder 'sample data files used'
 """
 (base) tanushkaushik@Tanushs-MacBook-Pro Texas Lead DS % python3 testedscholarlymodule2.py
 krishna kumar 2023 curriculum
