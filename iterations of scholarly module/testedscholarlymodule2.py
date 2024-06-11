@@ -1,3 +1,6 @@
+"""
+This code operates off the sample data file called "keywords_authors_years.csv" FROM folder "sample data files used".
+"""
 import csv
 from scholarly import scholarly, ProxyGenerator
 import json
